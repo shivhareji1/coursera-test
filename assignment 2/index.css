@@ -1,0 +1,76 @@
+*
+{
+box-sizing:border-box;
+}
+
+h1
+{
+text-align:center;
+}
+
+.row
+{
+width:100%;
+}
+
+section
+{
+border: 2px solid black;
+padding: 0px;
+margin-top:20px;
+margin-right:20px;
+background-color:lightsalmon;
+}
+
+h2{
+width: 150px;
+border:2px solid black;
+float: right;   
+text-align: center;  
+margin-top:0px;
+margin-right:0px
+}
+#Paneer {
+background-color:black;
+color:white;
+}
+#Chicken
+{
+background-color:yellow;
+color:black;
+}
+#Fish
+{
+background-color:green;
+color:orange;
+}
+p{
+position: relative;
+font-size:16px;
+}
+
+@media(min-width:992px)
+{
+   .col-lg-4 {
+    width: 33.33%;
+    float:left;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px)
+{
+.col-sm-12{
+width:100%;
+flot:left;
+}
+}
